@@ -1,0 +1,35 @@
+h1 {
+    font-family: "Kaushan Script", cursive;
+    font-size: 36px;
+}
+
+h2 {
+    font-family: "Times New Roman", "FreeSerif", serif;
+    font-size: 24px;
+}
+
+#cabecalho {
+    background-color: #6175f0;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 34px;
+    padding-bottom: 13px;
+}
+
+#verdade > img {
+    width: 310px;
+    float: left;
+}
+
+#verdade > p {
+    padding-left: 13px;
+}
+
+#hoje {
+    background-color: #f8cef7;
+    border: 1px solid #ff56fb;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: right;
+}
