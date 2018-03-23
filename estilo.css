@@ -26,13 +26,12 @@ h3:first-of-type {
     margin-top: 36px;
 }
 
-p:first-of-type {
+h2 + p {
     margin-top: 28px;
 }
 
 img + h2 {
     padding-top: 14px;
-    padding-left: 323px;
 }
 
 #cabecalho {
@@ -44,17 +43,14 @@ img + h2 {
     padding-left: 34px;
 }
 
-#verdade {
-    margin-bottom: 25px;
+#verdade *:not(img) {
+    margin-left: 310px;
+    padding-left: 13px;
 }
 
 #verdade > img {
     width: 310px;
     float: left;
-}
-
-#verdade > p {
-    padding-left: 323px;
 }
 
 .referencia {
@@ -85,6 +81,7 @@ audio {
 
 #verdade, #hoje {
     margin-right: 25px;
+    margin-bottom: 25px;
 }
 
 #musica {
@@ -93,10 +90,10 @@ audio {
 }
 
 #musica *:not(.destacado) {
-    padding-left: 12px;
+    margin-left: 12px;
 }
 
-#musica > p:nth-child(2n) {
+#musica p:nth-of-type(2n) {
     padding-left: 34px;
 }
 
